@@ -28,4 +28,18 @@ sudo chown root:$USER /dev/gpiomem
 sudo chmod g+rw /dev/gpiomem
 
 
+## SMU WIFI ADDED TO WPA_SUPPLICANT.CONF File 
+
+ip addresses 
+
+1. 192.168.4.1 
+
+2. 10.8.138.198 <-- WORKS 
+
+
+ping 10.8.138.198 
+
+ssh pi@10.8.138.198 
+
+
 
